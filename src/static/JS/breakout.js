@@ -120,7 +120,7 @@ let paddle = {
         context.closePath();
         context.beginPath();
         context.fillStyle = "#0079BA";
-        context.fillRect(this.y + (this.width/4)*3, canvas.height - this.height, this.width/4, this.height,);
+        context.fillRect(this.y + (this.width/4)*3, canvas.height - this.height, this.width/4, this.height);
         context.closePath();
         context.beginPath();
         context.strokeStyle = "#4EAFD6";
